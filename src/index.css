@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400..800&display=swap');
+body {font-family: "Baloo Thambi 2", system-ui;
+  font-optical-sizing: auto;
+  cursor: url('/Cursor.png'), auto;
+  font-style: normal;}
+
+
+  a, .dropdown-toggle, button {
+    cursor: url('/Cursor2.png'), auto;
+    cursor: -webkit-image-set( url('/Cursor2.png') 1x, url('/Cursor2.png') 2x ), auto;
+}
+
+.background {
+  position: relative;
+    
+    width: 100%;
+    background-image: url(/bgimage.svg);
+    background-position: 0px 0px;
+    background-size: 6px;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+
+.scrollbar-hide {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;    
+}
