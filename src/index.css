@@ -1,30 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400..800&display=swap');
-body {font-family: "Baloo Thambi 2", system-ui;
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400..800&display=swap");
+body {
+  font-family: "Baloo Thambi 2", system-ui;
   font-optical-sizing: auto;
-  cursor: url('/Cursor.png'), auto;
-  font-style: normal;}
+  cursor: url("/Cursor.png"), auto;
+  font-style: normal;
+}
 
-
-  a, .dropdown-toggle, button {
-    cursor: url('/Cursor2.png'), auto;
-    cursor: -webkit-image-set( url('/Cursor2.png') 1x, url('/Cursor2.png') 2x ), auto;
+a,
+.dropdown-toggle,
+button {
+  cursor: url("/Cursor2.png"), auto;
+  cursor: -webkit-image-set(url("/Cursor2.png") 1x, url("/Cursor2.png") 2x),
+    auto;
 }
 
 .background {
   position: relative;
-    
-    width: 100%;
-    background-image: url(/bgimage.svg);
-    background-position: 0px 0px;
-    background-size: 6px;
+
+  width: 100%;
+  background-image: url(/bgimage.svg);
+  background-position: 0px 0px;
+  background-size: 6px;
 }
 
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
 }
 
-
 .scrollbar-hide {
-  -ms-overflow-style: none;  
-  scrollbar-width: none;    
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.rich-text-block p,
+.rich-text-block li {
+  margin-bottom: 36px;
+  font-size: 2.2rem;
+  line-height: 3rem;
+}
+
+.rich-text-block h3 {
+  margin-top: 0px;
+  margin-bottom: 24px;
 }
