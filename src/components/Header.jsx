@@ -7,8 +7,15 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
-  const toggleMenu = () => setMenuOpen(!menuOpen);
-  const toggleDropdown = () => setDropdownOpen(!dropdownOpen);
+  const toggleDropdown = () => {
+    console.log("Dropdown clicked! 💥");
+    setDropdownOpen(!dropdownOpen);
+  };
+
+  const toggleMenu = () => {
+    console.log("Menu clicked! 🚀");
+    setMenuOpen(!menuOpen);
+  };
 
   const dropdownItems = [
     { title: "On Github", url: "https://github.com/Aaradhya1702" },
