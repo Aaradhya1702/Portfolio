@@ -1,0 +1,69 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+
+body {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  cursor: url("/Cursor.png"), auto;
+  font-style: normal;
+}
+
+a,
+.dropdown-toggle,
+button {
+  cursor: url("/Cursor2.png"), auto;
+  cursor: -webkit-image-set(url("/Cursor2.png") 1x, url("/Cursor2.png") 2x),
+    auto;
+}
+
+.background {
+  position: relative;
+
+  width: 100%;
+  background-image: url(/bgimage.svg);
+  background-position: 0px 0px;
+  background-size: 6px;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.rich-text-block p,
+.rich-text-block li {
+  margin-bottom: 36px;
+  font-size: 2.2rem;
+  line-height: 3rem;
+}
+
+.rich-text-block h3 {
+  margin-top: 0px;
+  margin-bottom: 24px;
+}
+
+.eye-circle {
+  position: absolute;
+  left: 44.1%;
+  top: 36%;
+  display: flex;
+  width: 17.75%;
+  height: 22.25%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.eye-pupil {
+  width: 50%;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+}
