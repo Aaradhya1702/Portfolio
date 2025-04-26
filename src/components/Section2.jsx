@@ -5,7 +5,7 @@ import ProjectSection from "./Project";
 const QuickLinks = () => {
   const links = [
     { label: "Projects", href: "#projects", target: "_self" },
-    { label: "About", href: "#about", target: "_self" },
+    { label: "About", href: "/about", target: "_self" },
     {
       label: "Contact",
       href: "mailto:jainaaradhya29@gmail.com",

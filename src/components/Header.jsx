@@ -28,7 +28,9 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0 px-4 sm:px-6 lg:px-8">
             <div className="bg-white p-1 rounded-md">
-              <img src="/Logo.svg" alt="Logo" className="h-8 w-8" />
+              <a href="/">
+                <img src="/Logo.svg" alt="Logo" className="h-8 w-8" />
+              </a>
             </div>
           </div>
 
