@@ -32,9 +32,9 @@ const QuickLinks = () => {
               key={index}
               href={link.href}
               target={link.target}
-              className="flex justify-between items-center p-1 text-[12px] sm:text-2xl sm:p-4 bg-[#c4c4c4] border-r border-b border-black font-bold hover:bg-gray-300 transition"
+              className=" w-full h-full cursor-pointer flex dropdown-toggle justify-between items-center p-1 text-[12px] sm:text-2xl sm:p-4 bg-[#c4c4c4] border-r border-b border-black font-bold hover:bg-gray-300 transition"
             >
-              <span>{link.label}</span>
+              <span className="dropdown-toggle">{link.label}</span>
               <ArrowUpRight size={20} />
             </a>
           ))}

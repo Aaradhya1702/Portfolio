@@ -27,8 +27,7 @@ function App() {
             management platform with performance analytics, to an interactive
             chess game, and even a secure React app with GraphQL authentication.
             I’m comfortable across the stack — whether it’s designing responsive
-            UIs in React + Tailwind, crafting APIs with Flask or Node.js, or
-            writing automation scripts in Python.
+            UIs in React + Tailwind, crafting APIs with Flask.
           </p>
           <p>I’m passionate about:</p>
           <ul>
